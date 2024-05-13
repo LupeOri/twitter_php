@@ -1,21 +1,7 @@
 <?php
 
-$tweets = [
-    [
-        "texto" => "Es un lugar de la Mancha",
-        "autor" => "Miguel de Cervantes",
-        "user" => "elMancoDeLepanto"
-    ],
-    [
-        "texto" => "El hombre mediocre",
-        "autor" => "José Ingenieros",
-        "user" => "El_ingeniero"
-    ],
-    [
-        "texto" => "Muchas vidas, muchos maestros",
-        "autor" => "Brian Weiss",
-        "user" => "brian_weiss"
-    ]
-];
+$jsonTweet = file_get_contents("tweets.json");
+$jsonArray = json_decode($jsonTweet, true);
+
 
 require_once "index.html";
