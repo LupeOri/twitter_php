@@ -7,9 +7,9 @@ $tweets = [
         "user" => "elMancoDeLepanto"
     ],
     [
-        "texto" => "Lord of the rings",
-        "autor" => "Tolkien",
-        "user" => "JR_Tolkien"
+        "texto" => "El hombre mediocre",
+        "autor" => "José Ingenieros",
+        "user" => "El_ingeniero"
     ],
     [
         "texto" => "Muchas vidas, muchos maestros",
